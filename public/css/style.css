@@ -1,7 +1,21 @@
+body{
+    color: #fefb1e;
+}
 main{
     background-color: #62C8E4;
 }
 section{
-    display: flex;
+    display: grid;
+     text-align: center; 
+
+
+    /* text-align: center; 
+    display: inline-grid;
+    grid-template-columns: auto auto auto; */
+    background-color: #16a085;
+    /* flex-wrap: wrap;
+    align-content: space-around; */
+}
+nav{
     background-color: #16a085;
 }
